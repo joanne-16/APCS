@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body>
+
+<h1 id="school"></h1>
+<p id="number"></p>
+
+<script>
+
+/*
+The code below will change
+the heading with id = "school"
+and the paragraph with id = "number"
+*/
+document.getElementById("school").innerHTML = "基隆女中 一年級";
+document.getElementById("number").innerHTML = "311196 廖喬安";
+
+let name = window.prompt("你叫什麼名字?");
+let born = window.prompt("你民國幾年出生?");
+let AD = window.parseInt(born)+1911
+let year = 2024-window.parseInt(AD)
+console.log("hi！ "+name+"！ "+"你在"+AD+"年出生，你今年"+year+"歲！")
+window.alert("hi！ "+name+"！ "+"你在"+AD+"年出生，你今年"+year+"歲！")
+
+</script>
+</body>
+
+</html>
